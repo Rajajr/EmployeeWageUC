@@ -1,0 +1,8 @@
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\bin\Debug\EmployeeWageCompte1958Batch.exe.config
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\bin\Debug\EmployeeWageCompte1958Batch.exe
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\bin\Debug\EmployeeWageCompte1958Batch.pdb
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\obj\Debug\EmployeeWageCompte1958Batch.csproj.AssemblyReference.cache
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\obj\Debug\EmployeeWageCompte1958Batch.csproj.SuggestedBindingRedirects.cache
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\obj\Debug\EmployeeWageCompte1958Batch.csproj.CoreCompileInputs.cache
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\obj\Debug\EmployeeWageCompte1958Batch.exe
+C:\Users\RAMYA\source\repos\EmployeeWageCompte1958Batch\EmployeeWageCompte1958Batch\obj\Debug\EmployeeWageCompte1958Batch.pdb
