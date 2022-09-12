@@ -10,34 +10,38 @@ namespace EmployeeWageCompte1958Batch
     {
         static void Main(string[] args)
         {
-            //UC-3 Part time Employee & Wage
-            int IS_PART_TIME = 1;
-            int IS_FULL_TIME = 2;
-            int EMP_RATE_PER_HOUR = 40;
-            int empHrs = 0; int empWage = 0;
+            //UC-4 Employee Wage using Switch
+            const int FULL_TIME = 1;
+            const int PART_TIME = 2;
+            const int EMP_RATE_PER_HR = 20;
+            //Variables
+            int empHrs = 0; 
+            int empWage = 0;
             Random random = new Random();
             //Generate random number within range either 0 or 1
             int empcheck = random.Next(0, 3);
             Console.WriteLine("Random value:" + empcheck);
 
-            if (IS_FULL_TIME == empcheck)
+            switch (empcheck)
             {
-                empHrs = 10;
-                Console.WriteLine("Full Time Employee is Present");
+                case FULL_TIME:
+                    empHrs = 8;
+                    Console.WriteLine("FullTime Employee is Present");
+                    break;
+
+                case PART_TIME:
+                    empHrs = 4;
+                    Console.WriteLine("PartTime Employee is Present");
+                    break;
+
+                default:
+                    Console.WriteLine("Employee is Absent");
+                    break;
             }
 
-            else if (IS_PART_TIME == empcheck)
-            {
-                empHrs = 4;
-                Console.WriteLine("Part Time Employee is Present");
-            }
-            else
-            {
-                empHrs = 0;
-                Console.WriteLine("Employe is Absent");
-            }
-            empWage = empHrs * EMP_RATE_PER_HOUR;
-            Console.WriteLine("Employee Wage is:"+empWage);
+            empWage = empHrs * EMP_RATE_PER_HR;
+            Console.WriteLine("Employee Wage Per Day:" + empWage);
+
             Console.ReadLine();
         }
     }
